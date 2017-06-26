@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+}
+
+.tile{
+  background-color: grey;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.container{
+  max-width: 100%;
+}
+
+.tile-space{
+  width: 66.66%;
+  margin: 0 auto;
+}
+
+.top-row{
+  width: 100%;
+}
+
+.about-tile{
+  width: 60%;
+}
+
+.latest-projects-tile{
+  width: 30%;
+}
+
+.bottom-tile{
+  width: 33.33%;
+}
