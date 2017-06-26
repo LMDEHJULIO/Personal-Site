@@ -1,17 +1,26 @@
+*{
+  box-sizing: border-box;
+}
 body{
   margin: 0;
   padding: 0;
-  min-width: 100%;
+}
+
+h1{
+  margin:0;
+  padding: 0;
 }
 
 .tile{
+  float: left;
   background-color: grey;
   border: 1px solid black;
   display: inline-block;
+  height: 300px;
 }
 
 .container{
-  max-width: 100%;
+  width: 100%;
 }
 
 .tile-space{
@@ -28,7 +37,7 @@ body{
 }
 
 .latest-projects-tile{
-  width: 30%;
+  width: 40%;
 }
 
 .bottom-tile{
