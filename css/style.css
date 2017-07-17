@@ -12,14 +12,21 @@ h1{
   margin:0;
   padding: 0;
 }
+
+.backdrop{
+  background-image: url("../skyline.jpg");
+  background-position: 0px -84px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  height: 363px;
+}
+
 .backdrop *{
   position: absolute;
   width: 100%;
-}
-.backdrop-image{
-  position: absolute;
-  height: 366px;
-  width: 100%;
+  z-index: 1;
 }
 
 .backdrop-header{
@@ -40,7 +47,13 @@ h1{
 .tile-img{
   width: 100%;
   height: 100%;
+}
 
+.about-tile{
+  background-image: url("../janda.jpg");
+  background-position: 64% 17%;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
 }
 
 .tile-headline{
@@ -57,7 +70,7 @@ h1{
   width: 66.66%;
   margin: 0 auto;
   position: relative;
-  top: 300px;
+  top: -75px;
   z-index: 2;
 }
 
